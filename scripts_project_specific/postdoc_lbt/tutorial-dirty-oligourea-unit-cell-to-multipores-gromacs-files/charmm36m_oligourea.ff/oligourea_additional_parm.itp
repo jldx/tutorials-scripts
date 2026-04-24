@@ -1,0 +1,89 @@
+; Parameters derived from Cgenff for oligourea with Charmm36m parameters
+
+[ bondtypes ]
+; i	j	func	b0	Kb
+      CT       OS     1   0.14300000    284512.00 ; from CG301 OG302
+       C       OS     1   0.13500000    292880.00 ; from CG2O6 OG302
+     CT2      CP1     1   0.15280000    186188.00 ; from CG321 CG3C51
+       C      NH2     1   0.13600000    359824.00 ; from CG2O6 NG2S2
+
+[ angletypes ]
+     CT2      CT1      CT2     5   113.500000   488.272800   0.25610000         9338.6880 ; from CG321 CG311 CG321
+     NH1        C      NH1     5   115.000000   585.760000   0.00000000         0.0000000 ; from NG2S1 CG2O6 NG2S1
+     CT1      CT2      NH1     5   113.500000   585.760000   0.00000000         0.0000000 ; from CG311 CG321 NG2S1
+     NH1      CT2      HA2     5   109.500000   430.952000   0.00000000         0.0000000 ; from NG2S1 CG321 HGA2
+     CT3       CT       OS     5   110.100000   633.457600   0.00000000         0.0000000 ; from CG331 CG301 OG302
+       O        C       OS     5   123.500000   585.760000   0.00000000         0.0000000 ; from OG2D1 CG2O6 OG302
+     NH1        C       OS     5   110.300000   753.120000   0.00000000         0.0000000 ; from NG2S1 CG2O6 OG302
+       C       OS       CT     5   111.000000   334.720000   0.00000000         0.0000000 ; from CG2O6 OG302 CG301
+     CT2      CP1        N     5   114.200000   417.228480   0.00000000         0.0000000 ; from CG321 CG3C51 NG2S0
+       N        C      NH1     5   112.900000   589.944000   0.00000000         0.0000000 ; from NG2S0 CG2O6 NG2S1
+     CT2      CP1      CP2     5   115.000000   485.344000   0.25610000         6694.4000 ; from CG321 CG3C51 CG3C52
+     CP1      CT2      HA2     5   110.100000   289.532800   0.21790000         18853.104 ; from CG3C51 CG321 HGA2
+     CP1      CT2      NH1     5   113.500000   585.760000   0.00000000         0.0000000 ; from CG3C51 CG321 NG2S1
+     CT2      CP1      HB1     5   110.100000   289.532800   0.21790000         18853.104 ; from CG321 CG3C51 HGA1 
+   NG2S1    CG2O1      NH1     5   115.000000   585.760000   0.00000000         0.0000000 ; from NG2S1 CG2O6 NG2S1
+    CT2A      CT1      CT2     5   108.000000   435.136000   0.00000000         0.00      ; from CG2O3 CG311 CG321 
+     NH2        C        O     5   122.500000   627.600000   0.23700000         41840.00  ; from NG2S2 CG2O6 OG2D1
+     NH1        C      NH2     5   115.000000   585.760000   0.00000000         0.00      ; from NG2S1 CG2O6 NG2S2
+       C      NH2        H     5   120.000000   418.400000   0.00000000         0.00      ; from CG2O6 NG2S2 HGP1
+
+[ dihedraltypes ]
+      OS       CT      CT3      HA3     9     0.000000     0.669440     3 ; from OG302 CG301 CG331 HGA3
+     CT3       CT       OS        C     9     0.000000     0.000000     3 ; from CG331 CG301 OG302 CG2O6
+     NH1        C       OS       CT     9     180.0000     0.627600     1 ; from NG2S1 CG2O6 OG302 CG301
+     NH1        C       OS       CT     9     180.0000     0.920480     2 ; from NG2S1 CG2O6 OG302 CG301
+     NH1        C       OS       CT     9     180.0000     0.418400     3 ; from NG2S1 CG2O6 OG302 CG301
+      OS        C      NH1      CT1     9     180.0000     16.73600     2 ; from OG302 CG2O6 NG2S1 CG311
+      OS        C      NH1      CT1     9     0.000000     3.974800     4 ; from OG302 CG2O6 NG2S1 CG311
+      OS        C      NH1        H     9     180.0000     0.000000     2 ; from OG302 CG2O6 NG2S1 HGP1 
+     CT1      CT2      NH1        C     9     180.0000     1.464400     1 ; from CG311 CG321 NG2S1 CG2O6
+     CT1      CT2      NH1        C     9     0.000000     3.138000     2 ; from CG311 CG321 NG2S1 CG2O6
+     CT1      CT2      NH1        C     9     0.000000     0.627600     4 ; from CG311 CG321 NG2S1 CG2O6
+     CT1      CT2      NH1        H     9     0.000000     0.000000     1 ; from CG311 CG321 NG2S1 HGP1
+       O        C       OS       CT     9     0.000000     0.627600     1 ; from OG2D1 CG2O6 OG302 CG301
+       O        C       OS       CT     9     180.0000     9.204800     2 ; from OG2D1 CG2O6 OG302 CG301
+       O        C       OS       CT     9     0.000000     0.418400     3 ; from OG2D1 CG2O6 OG302 CG301
+     NH1        C      NH1        H     9     180.0000     6.276000     2 ; from NG2S1 CG2O6 NG2S1 HGP1
+     NH1        C      NH1      CT2     9     0.000000     3.347200     1 ; from NG2S1 CG2O6 NG2S1 CG321   
+     NH1        C      NH1      CT1     9     0.000000     3.347200     1 ; from NG2S1 CG2O6 NG2S1 CG311   
+       N        C      NH1      CT2     9     180.0000     5.020800     1 ; from NG2S0 CG2O6 NG2S1 CG321
+       N        C      NH1      CT2     9     180.0000     6.276000     2 ; from NG2S0 CG2O6 NG2S1 CG321 
+       N        C      NH1        H     9     180.0000     3.765600     2 ; from NG2S0 CG2O6 NG2S1 HGP1
+     NH1        C        N      CP1     9     180.0000     0.836800     2 ; from NG2S1 CG2O6 NG2S0 CG3C51
+     NH1        C        N      CP3     9     180.0000     0.836800     2 ; from NG2S1 CG2O6 NG2S0 CG3C52
+     CT2      CP1      CP2      CP2     9     0.000000     0.794960     3 ; from CG321 CG3C51 CG3C52 CG3C52
+     CT2      CP1      CP2      HA2     9     0.000000     0.794960     3 ; from CG321 CG3C51 CG3C52 HGA2
+     CT2      CP1        N        C     9     0.000000     3.347200     3 ; from CG321 CG3C51 NG2S0 CG2O6
+     CT2      CP1        N      CP2     9     0.000000     0.418400     3 ; from CG321 CG3C51 NG2S0 CG3C52
+     CT2      CP1        N      CP3     9     0.000000     0.418400     3 ; from CG321 CG3C51 NG2S0 CG3C52
+     HA2      CT2      CP1        N     9     0.000000     0.815880     3 ; from HGA2 CG321 CG3C51 NG2S0
+     NH1      CT2      CP1        N     9     0.000000     0.794960     3 ; from NG2S1 CG321 CG3C51 NG2S0
+     NH1      CT2      CP1      CP2     9     0.000000     0.647264     4 ; from NG2S1 CG321 CG3C51 CG3C52
+     NH1      CT2      CP1      HB1     9     0.000000     1.699959     3 ; from NG2S1 CG321 CG3C51 HGP1
+     HA2      CT2      CP1      CP2     9     0.000000     0.669440     3 ; from HGA2 CG321 CG3C51 CG3C52
+     HA2      CT2      CP1      HB1     9     0.000000     0.669440     3 ; from HGA2 CG321 CG3C51 HGA1
+     CP1      CT2      NH1        C     9     180.0000     1.464400     1 ; from CG3C51 CG321 NG2S1 CG2O6
+     CP1      CT2      NH1        C     9     0.000000     3.138000     2 ; from CG3C51 CG321 NG2S1 CG2O6
+     CP1      CT2      NH1        C     9     0.000000     0.627600     4 ; from CG3C51 CG321 NG2S1 CG2O6
+     CP1      CT2      NH1        H     9     0.000000     0.000000     1 ; from CG3C51 CG321 NG2S1 HGP1
+     NH1        C      NH1      CT3     9     0.000000     6.694400     1 ; from NG2S1 CG2O6 NG2S1 CG331
+     NH1        C      NH1      CT3     9     180.0000     10.46000     2 ; from NG2S1 CG2O6 NG2S1 CG331
+     NH2        C      NH1      CT2     9     0.000000     6.694400     1 ; from NG2S2 CG2O6 NG2S1 CG321
+     NH2        C      NH1      CT2     9   180.000000    10.460000     2 ; from NG2S2 CG2O6 NG2S1 CG321
+     NH2        C      NH1        H     9   180.000000    16.736000     2 ; from NG2S2 CG2O6 NG2S1 HGP1
+     NH1        C      NH2        H     9   180.000000     6.276000     2 ; from NG2S1 CG2O6 NG2S2 HGP1
+     NH1    CG2O1    NG2S1        H     9   180.000000     6.276000     2 ; from NG2S1 CG2O6 NG2S1 HGP1
+     NH1    CG2O1    NG2S1     HGP1     9   180.000000     6.276000     2 ; from NG2S1 CG2O6 NG2S1 HGP1
+   NG2S1    CG2O1      NH1        H     9   180.000000     6.276000     2 ; from NG2S1 CG2O6 NG2S1 HGP1   
+   NG2S1    CG2O1      NH1      CT1     9     0.000000     3.347200     1 ; from NG2S1 CG2O6 NG2S1 CG311   
+     NH1    CG2O1    NG2S1    CG311     9     0.000000     3.347200     1 ; from NG2S1 CG2O6 NG2S1 CG311 
+       O        C      NH2        H     9   180.000000     5.857600     2 ; from OG2D1 CG2O6 NG2S2 HGP1
+     CT2      CT1     CT2A      CT2     9     0.000000     0.836800     3 ; wildcard X CT1 CT2 X
+     CT2      CT1     CT2A      HA2     9     0.000000     0.836800     3 ; wildcard
+  
+[ dihedraltypes ]
+; i	j	k	l	func	q0	Kq
+       C      NH1        O       OS     2     0.000000    518.81600       ; from CG2O6 NG2S1 OG2D1 OG302
+  
+  

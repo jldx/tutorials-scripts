@@ -1,0 +1,149 @@
+#-------------------------------------------------------------------------------
+#
+# Map of H5 crystallographic structure (H5.pdb) to the oligourea "peptide"
+#
+# - xindex: the atom index in the xtallo structure
+# - xname: the atom name in the xtallo structure
+# - xresid: the residue index in the xtallo structure
+# - resid: the oligourea residue number
+# - name: the residue atom name
+# - resname: the oligourea residue name 
+#            (IPA  and NH2M are isopropyl amine and amine caps)
+# - resi_index: the atom index within the residue
+# - index: the oligourea atom index
+#
+# The first line (index 0) is here to facilitate the creation of H5_mapped.pdb
+#
+# ------------------------------------------------------------------------------
+
+xindex	xname	xresid	resid	name	resname	resi_index	index
+0	0	0	0	0	0	0	0
+2	CAJ	1	1	C	IPC 	1	1
+1	OAF	1	1	O	IPC 	2	2
+3	NAH	1	1	N	IPC 	3	3
+4	CAL	1	1	CR	IPC 	4	4
+5	CAC	1	1	C21	IPC 	5	5
+6	CAD	1	1	C22	IPC 	6	6
+7	NAI	1	2	N	UUA 	1	7
+8	CAM	1	2	CA	UUA 	2	8
+10	CAG	1	2	CB	UUA 	3	9
+9	CAE	1	2	CK	UUA 	4	10
+20	NAD	2	2	NU	UUA 	5	11
+18	CAH	2	2	C	UUA 	6	12
+19	OAE	2	2	O	UUA 	7	13
+17	NAG	2	3	N	UUL 	1	14
+15	CAJ	2	3	CA	UUL 	2	15
+14	CAF	2	3	CB	UUL 	3	16
+12	CAI	2	3	CG	UUL 	4	17
+11	CAA	2	3	CD1	UUL 	5	18
+13	CAB	2	3	CD2	UUL 	6	19
+16	CAC	2	3	CK	UUL 	7	20
+31	NAC	3	3	NU	UUL 	8	21
+29	CAJ	3	3	C	UUL 	9	22
+30	OAD	3	3	O	UUL 	10	23
+28	NAI	3	4	N	UUK 	1	24
+26	CAK	3	4	CA	UUK 	2	25
+25	CAH	3	4	CB	UUK 	3	26
+24	CAG	3	4	CG	UUK 	4	27
+23	CAF	3	4	CD	UUK 	5	28
+22	CAE	3	4	CE	UUK 	6	29
+21	NAB	3	4	NZ	UUK 	7	30
+27	CAA	3	4	CK	UUK 	8	31
+41	NAD	4	4	NU	UUK 	9	32
+39	CAH	4	4	C	UUK 	10	33
+40	OAE	4	4	O	UUK 	11	34
+38	NAG	4	5	N	UUL 	1	35
+36	CAJ	4	5	CA	UUL 	2	36
+35	CAF	4	5	CB	UUL 	3	37
+33	CAI	4	5	CG	UUL 	4	38
+32	CAA	4	5	CD1	UUL 	5	39
+34	CAB	4	5	CD2	UUL 	6	40
+37	CAC	4	5	CK	UUL 	7	41
+52	NAB	5	5	NU	UUL 	8	42
+50	CAI	5	5	C	UUL 	9	43
+51	OAC	5	5	O	UUL 	10	44
+49	NAH	5	6	N	UUE 	1	45
+47	CAK	5	6	CA	UUE 	2	46
+46	CAG	5	6	CB	UUE 	3	47
+45	CAF	5	6	CG	UUE 	4	48
+43	CAJ	5	6	CD	UUE 	5	49
+42	OAD	5	6	OE1	UUE 	6	50
+44	OAE	5	6	OE2	UUE 	7	51
+48	CAA	5	6	CK	UUE 	8	52
+66	NAB	6	6	NU	UUE 	9	53
+64	CAK	6	6	C	UUE 	10	54
+65	OAC	6	6	O	UUE 	11	55
+63	NAJ	6	7	N	UUY 	1	56
+61	CAN	6	7	CA	UUY 	2	57
+60	CAI	6	7	CB	UUY 	3	58
+59	CAM	6	7	CG	UUY 	4	59
+58	CAH	6	7	CD1	UUY 	5	60
+57	CAF	6	7	CE1	UUY 	6	61
+55	CAL	6	7	CZ	UUY 	7	62
+56	OAD	6	7	OH	UUY 	8	63
+53	CAG	6	7	CD2	UUY 	9	64
+54	CAE	6	7	CE2	UUY 	10	65
+62	CAA	6	7	CK	UUY 	11	66
+76	NAD	7	7	NU	UUY 	12	67
+74	CAH	7	7	C	UUY 	13	68
+75	OAE	7	7	O	UUY 	14	69
+73	NAG	7	8	N	UUL 	1	70
+71	CAJ	7	8	CA	UUL 	2	71
+70	CAF	7	8	CB	UUL 	3	72
+68	CAI	7	8	CG	UUL 	4	73
+67	CAA	7	8	CD1	UUL 	5	74
+69	CAB	7	8	CD2	UUL 	6	75
+72	CAC	7	8	CK	UUL 	7	76
+87	NAB	8	8	NU	UUL 	8	77
+85	CAI	8	8	C	UUL 	9	78
+86	OAC	8	8	O	UUL 	10	79
+84	NAH	8	9	N	UUE 	1	80
+82	CAK	8	9	CA	UUE 	2	81
+81	CAG	8	9	CB	UUE 	3	82
+80	CAF	8	9	CG	UUE 	4	83
+78	CAJ	8	9	CD	UUE 	5	84
+79	OAE	8	9	OE1	UUE 	6	85
+77	OAD	8	9	OE2	UUE 	7	86
+83	CAA	8	9	CK	UUE 	8	87
+97	NAD	9	9	NU	UUE 	9	88
+95	CAH	9	9	C	UUE 	10	89
+96	OAE	9	9	O	UUE 	11	90
+94	NAG	9	10	N	UUL 	1	91
+92	CAJ	9	10	CA	UUL 	2	92
+91	CAF	9	10	CB	UUL 	3	93
+89	CAI	9	10	CG	UUL 	4	94
+88	CAA	9	10	CD1	UUL 	5	95
+90	CAB	9	10	CD2	UUL 	6	96
+93	CAC	9	10	CK	UUL 	7	97
+108	NAC	10	10	NU	UUL 	8	98
+106	CAJ	10	10	C	UUL 	9	99
+107	OAD	10	10	O	UUL 	10	100
+105	NAI	10	11	N	UUK 	1	101
+103	CAK	10	11	CA	UUK 	2	102
+102	CAH	10	11	CB	UUK 	3	103
+101	CAG	10	11	CG	UUK 	4	104
+100	CAF	10	11	CD	UUK 	5	105
+99	CAE	10	11	CE	UUK 	6	106
+98	NAB	10	11	NZ	UUK 	7	107
+104	CAA	10	11	CK	UUK 	8	108
+115	NAB	11	11	NU	UUK 	9	109
+113	CAI	11	11	C	UUK 	10	110
+114	OAC	11	11	O	UUK 	11	111
+112	NAH	11	12	N	UUA 	1	112
+110	CAK	11	12	CA	UUA 	2	113
+109	CAG	11	12	CB	UUA 	3	114
+111	CAA	11	12	CK	UUA 	4	115
+124	NAD	12	12	NU	UUA 	5	116
+123	OAF	12	12	O	UUA 	6	117
+122	CAL	12	12	C	UUA 	7	118
+121	NAJ	12	13	N	UUL 	1	119
+120	CAN	12	13	CA	UUL 	2	120
+119	CAH	12	13	CB	UUL 	3	121
+117	CAM	12	13	CG	UUL 	4	122
+116	CAA	12	13	CD1	UUL 	5	123
+118	CAB	12	13	CD2	UUL 	6	124
+125	CAG	12	13	CK	UUL 	7	125
+126	NAI	12	13	NU	UUL 	8	126
+127	CAK	12	13	C	UUL 	9	127
+128	OAE	12	13	O	UUL 	10	128
+129	NAC	12	14	N	NHC 	1	129

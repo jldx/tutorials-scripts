@@ -1,0 +1,776 @@
+CRYST1   50.364   50.364   42.872  90.00  90.00 120.00 P 6 2 2       1
+HETATM    1  OAF ULN A   1      33.924   8.837  60.248  1.00 75.89           O  
+ANISOU    1  OAF ULN A   1     5648  13116  10069    445  -4513   1094       O  
+HETATM    2  CAJ ULN A   1      33.668   9.069  61.424  1.00 60.79           C  
+ANISOU    2  CAJ ULN A   1     3416   7945  11736  -2246  -3256   -136       C  
+HETATM    3  NAH ULN A   1      34.596   8.952  62.386  1.00 66.39           N  
+ANISOU    3  NAH ULN A   1     5822   4772  14631  -2173  -5353   3091       N  
+HETATM    4  CAL ULN A   1      35.967   8.510  62.118  1.00 76.91           C  
+ANISOU    4  CAL ULN A   1     8268   4326  16626     10  -3982   1958       C  
+HETATM    5  CAC ULN A   1      36.764   9.565  61.375  1.00 93.29           C  
+ANISOU    5  CAC ULN A   1    11042   7595  16809  -3110  -3219   1104       C  
+HETATM    6  CAD ULN A   1      36.655   8.164  63.427  1.00 69.54           C  
+ANISOU    6  CAD ULN A   1    10119   5423  10878   -248  -6505   4019       C  
+HETATM    7  NAI ULN A   1      32.449   9.482  61.784  1.00 64.51           N  
+ANISOU    7  NAI ULN A   1     3611   8454  12445  -2522  -1065   1825       N  
+HETATM    8  CAM ULN A   1      31.360   9.600  60.796  1.00 47.79           C  
+ANISOU    8  CAM ULN A   1     2914   6381   8862  -1802   1101   2321       C  
+HETATM    9  CAE ULN A   1      30.895  11.050  60.536  1.00 41.63           C  
+ANISOU    9  CAE ULN A   1     5625   5962   4228  -1832    521   1853       C  
+HETATM   10  CAG ULN A   1      30.221   8.792  61.443  1.00 36.68           C  
+ANISOU   10  CAG ULN A   1     3808   5479   4648  -2357   -858   3087       C  
+HETATM   11  CAA URL A   2      30.837  14.531  55.969  1.00 19.46           C  
+ANISOU   11  CAA URL A   2     2882   2667   1845    280     35   -475       C  
+HETATM   12  CAI URL A   2      32.132  14.657  55.171  1.00 17.56           C  
+ANISOU   12  CAI URL A   2     2992   2697    982     24   -179   -352       C  
+HETATM   13  CAB URL A   2      32.293  16.094  54.691  1.00 18.27           C  
+ANISOU   13  CAB URL A   2     3335   2597   1009    290   -263   -391       C  
+HETATM   14  CAF URL A   2      33.344  14.269  56.029  1.00 15.12           C  
+ANISOU   14  CAF URL A   2     2986   2210    548   -227   -105   -195       C  
+HETATM   15  CAJ URL A   2      33.254  12.802  56.480  1.00 14.26           C  
+ANISOU   15  CAJ URL A   2     2862   2287    267   -213     62   -167       C  
+HETATM   16  CAC URL A   2      34.648  12.118  56.326  1.00 15.69           C  
+ANISOU   16  CAC URL A   2     2744   2537    677   -182   -536    -31       C  
+HETATM   17  NAG URL A   2      32.877  12.747  57.898  1.00 17.83           N  
+ANISOU   17  NAG URL A   2     3366   3114    295   -837    170   -342       N  
+HETATM   18  CAH URL A   2      31.986  11.857  58.405  1.00 19.63           C  
+ANISOU   18  CAH URL A   2     3572   3316    569  -1071    819   -820       C  
+HETATM   19  OAE URL A   2      31.358  11.065  57.680  1.00 19.27           O  
+ANISOU   19  OAE URL A   2     3632   3278    409   -781    197   -582       O  
+HETATM   20  NAD URL A   2      31.840  11.881  59.754  1.00 25.00           N  
+ANISOU   20  NAD URL A   2     5191   4023    281  -1403     -8   -306       N  
+HETATM   21  NAB URK A   3      37.677   3.327  57.544  1.00 38.70           N  
+ANISOU   21  NAB URK A   3     4819   3662   6220   1055  -1276   1166       N  
+HETATM   22  CAE URK A   3      36.994   4.613  57.320  1.00 30.51           C  
+ANISOU   22  CAE URK A   3     5248   3286   3055    815   -703   1072       C  
+HETATM   23  CAF URK A   3      36.452   4.702  55.895  1.00 26.82           C  
+ANISOU   23  CAF URK A   3     3986   3318   2883    783   -387    146       C  
+HETATM   24  CAG URK A   3      35.754   6.050  55.685  1.00 21.98           C  
+ANISOU   24  CAG URK A   3     3292   2978   2079    518    413   -113       C  
+HETATM   25  CAH URK A   3      34.439   6.066  56.453  1.00 19.56           C  
+ANISOU   25  CAH URK A   3     2639   2429   2362    439    -24   -327       C  
+HETATM   26  CAK URK A   3      33.630   7.297  56.046  1.00 17.04           C  
+ANISOU   26  CAK URK A   3     2621   2353   1499    207   -197   -160       C  
+HETATM   27  CAA URK A   3      32.146   7.105  56.502  1.00 16.08           C  
+ANISOU   27  CAA URK A   3     2686   2567    855    153   -228     18       C  
+HETATM   28  NAI URK A   3      34.148   8.502  56.720  1.00 15.97           N  
+ANISOU   28  NAI URK A   3     2848   2523    696    -39   -155      9       N  
+HETATM   29  CAJ URK A   3      34.194   9.716  56.128  1.00 14.92           C  
+ANISOU   29  CAJ URK A   3     2758   2617    294      1   -318     29       C  
+HETATM   30  OAD URK A   3      33.891   9.870  54.933  1.00 17.36           O  
+ANISOU   30  OAD URK A   3     2925   3379    289    304   -220    209       O  
+HETATM   31  NAC URK A   3      34.605  10.745  56.865  1.00 15.38           N  
+ANISOU   31  NAC URK A   3     2679   2676    487   -241   -359     57       N  
+HETATM   32  CAA URL A   4      26.050  10.586  55.337  1.00 21.30           C  
+ANISOU   32  CAA URL A   4     2791   3655   1646    260    182     79       C  
+HETATM   33  CAI URL A   4      27.379   9.973  54.907  1.00 16.55           C  
+ANISOU   33  CAI URL A   4     2626   2959    703    -81    105     61       C  
+HETATM   34  CAB URL A   4      27.104   8.813  53.942  1.00 16.80           C  
+ANISOU   34  CAB URL A   4     2718   3342    323   -443   -137    101       C  
+HETATM   35  CAF URL A   4      28.231  11.051  54.215  1.00 16.05           C  
+ANISOU   35  CAF URL A   4     2323   2888    885    -99    -93     33       C  
+HETATM   36  CAJ URL A   4      29.661  10.548  53.912  1.00 13.63           C  
+ANISOU   36  CAJ URL A   4     2249   2637    289    -13   -246    122       C  
+HETATM   37  CAC URL A   4      30.541  11.747  53.335  1.00 14.10           C  
+ANISOU   37  CAC URL A   4     2434   2572    349    -89    -18    -93       C  
+HETATM   38  NAG URL A   4      30.291   9.977  55.141  1.00 13.91           N  
+ANISOU   38  NAG URL A   4     2577   2412    293     -9   -168    247       N  
+HETATM   39  CAH URL A   4      30.878   8.750  55.194  1.00 13.80           C  
+ANISOU   39  CAH URL A   4     2621   2350    270     -1   -200     14       C  
+HETATM   40  OAE URL A   4      30.911   7.989  54.215  1.00 15.36           O  
+ANISOU   40  OAE URL A   4     2911   2646    279   -108     26   -111       O  
+HETATM   41  NAD URL A   4      31.416   8.381  56.376  1.00 14.47           N  
+ANISOU   41  NAD URL A   4     2613   2617    264    146   -144     60       N  
+HETATM   42  OAD URG A   5      37.394   7.728  50.451  1.00 26.31           O  
+ANISOU   42  OAD URG A   5     3337   3777   2880   -563    231    468       O  
+HETATM   43  CAJ URG A   5      37.264   8.268  51.584  1.00 25.74           C  
+ANISOU   43  CAJ URG A   5     3067   3585   3127   -149    -54    337       C  
+HETATM   44  OAE URG A   5      37.563   7.750  52.682  1.00 30.07           O  
+ANISOU   44  OAE URG A   5     3534   4293   3596     12   -618    532       O  
+HETATM   45  CAF URG A   5      36.671   9.690  51.644  1.00 22.21           C  
+ANISOU   45  CAF URG A   5     2442   3646   2348   -230   -586     74       C  
+HETATM   46  CAG URG A   5      35.639   9.901  50.544  1.00 17.56           C  
+ANISOU   46  CAG URG A   5     2434   2940   1297   -289   -136    -87       C  
+HETATM   47  CAK URG A   5      34.229   9.482  50.993  1.00 14.16           C  
+ANISOU   47  CAK URG A   5     2378   2435    563    -49   -159   -129       C  
+HETATM   48  CAA URG A   5      34.173   7.949  51.434  1.00 14.10           C  
+ANISOU   48  CAA URG A   5     2290   2646    420   -245   -239    172       C  
+HETATM   49  NAH URG A   5      33.667  10.263  52.109  1.00 14.55           N  
+ANISOU   49  NAH URG A   5     2182   2866    478      6     90     36       N  
+HETATM   50  CAI URG A   5      32.415  10.782  52.065  1.00 13.60           C  
+ANISOU   50  CAI URG A   5     2225   2669    271    -10   -160   -111       C  
+HETATM   51  OAC URG A   5      31.741  10.776  51.013  1.00 14.42           O  
+ANISOU   51  OAC URG A   5     2490   2694    293   -301   -268    170       O  
+HETATM   52  NAB URG A   5      31.935  11.320  53.205  1.00 14.55           N  
+ANISOU   52  NAB URG A   5     2491   2671    364    -43    -75   -233       N  
+HETATM   53  CAG URY A   6      27.908   4.505  49.229  1.00 14.65           C  
+ANISOU   53  CAG URY A   6     2292   2719    554   -208   -288    -58       C  
+HETATM   54  CAE URY A   6      27.010   3.983  48.310  1.00 16.73           C  
+ANISOU   54  CAE URY A   6     2155   3100   1099   -202   -648     81       C  
+HETATM   55  CAL URY A   6      25.677   4.409  48.293  1.00 14.70           C  
+ANISOU   55  CAL URY A   6     2164   2888    530   -194   -622      8       C  
+HETATM   56  OAD URY A   6      24.810   3.886  47.392  1.00 20.08           O  
+ANISOU   56  OAD URY A   6     2700   3643   1285   -220  -1211   -235       O  
+HETATM   57  CAF URY A   6      25.247   5.368  49.209  1.00 15.31           C  
+ANISOU   57  CAF URY A   6     2342   2885    590   -168   -419    126       C  
+HETATM   58  CAH URY A   6      26.160   5.886  50.133  1.00 13.81           C  
+ANISOU   58  CAH URY A   6     2141   2753    353    -90   -354    306       C  
+HETATM   59  CAM URY A   6      27.485   5.470  50.131  1.00 12.85           C  
+ANISOU   59  CAM URY A   6     1954   2629    296   -323   -271     47       C  
+HETATM   60  CAI URY A   6      28.428   6.000  51.130  1.00 12.99           C  
+ANISOU   60  CAI URY A   6     1995   2660    279   -405   -182    -83       C  
+HETATM   61  CAN URY A   6      29.399   6.982  50.477  1.00 12.79           C  
+ANISOU   61  CAN URY A   6     1855   2652    350   -228    -65    -30       C  
+HETATM   62  CAA URY A   6      28.652   8.335  50.183  1.00 13.09           C  
+ANISOU   62  CAA URY A   6     2101   2563    309   -239    -55    113       C  
+HETATM   63  NAJ URY A   6      30.547   7.231  51.376  1.00 12.04           N  
+ANISOU   63  NAJ URY A   6     1875   2430    268   -185    -83    164       N  
+HETATM   64  CAK URY A   6      31.820   7.366  50.935  1.00 12.62           C  
+ANISOU   64  CAK URY A   6     1944   2584    265   -131      5    167       C  
+HETATM   65  OAC URY A   6      32.097   7.255  49.735  1.00 15.21           O  
+ANISOU   65  OAC URY A   6     2688   2834    256   -297     62     53       O  
+HETATM   66  NAB URY A   6      32.786   7.628  51.837  1.00 13.57           N  
+ANISOU   66  NAB URY A   6     2268   2591    295   -131   -174    263       N  
+HETATM   67  CAA URL A   7      30.186  14.224  46.049  1.00 16.06           C  
+ANISOU   67  CAA URL A   7     2989   2355    759   -335    242     94       C  
+HETATM   68  CAI URL A   7      30.091  12.726  46.412  1.00 14.57           C  
+ANISOU   68  CAI URL A   7     2571   2359    606   -212      8    173       C  
+HETATM   69  CAB URL A   7      29.228  12.016  45.366  1.00 17.48           C  
+ANISOU   69  CAB URL A   7     2991   2834    814   -232   -324     55       C  
+HETATM   70  CAF URL A   7      31.508  12.124  46.455  1.00 13.58           C  
+ANISOU   70  CAF URL A   7     2514   2154    489   -191     -9     92       C  
+HETATM   71  CAJ URL A   7      31.551  10.637  46.895  1.00 12.66           C  
+ANISOU   71  CAJ URL A   7     2311   2224    272   -207     65    176       C  
+HETATM   72  CAC URL A   7      33.064  10.182  46.938  1.00 12.94           C  
+ANISOU   72  CAC URL A   7     2493   2166    256    -25     -3    -75       C  
+HETATM   73  NAG URL A   7      30.944  10.427  48.237  1.00 12.67           N  
+ANISOU   73  NAG URL A   7     2079   2446    288   -206     -6    275       N  
+HETATM   74  CAH URL A   7      30.013   9.485  48.481  1.00 13.29           C  
+ANISOU   74  CAH URL A   7     2241   2545    262   -314    -39    139       C  
+HETATM   75  OAE URL A   7      29.531   8.782  47.571  1.00 14.50           O  
+ANISOU   75  OAE URL A   7     2572   2662    275   -372   -186    156       O  
+HETATM   76  NAD URL A   7      29.603   9.365  49.760  1.00 12.73           N  
+ANISOU   76  NAD URL A   7     2157   2419    261   -204    -30    132       N  
+HETATM   77  OAD URG A   8      35.855   2.079  47.359  1.00 76.58           O  
+ANISOU   77  OAD URG A   8    10452   6266  12376   2080  -2242   -522       O  
+HETATM   78  CAJ URG A   8      36.260   3.269  47.270  1.00 52.52           C  
+ANISOU   78  CAJ URG A   8     4372   6596   8986   2839  -2231   -220       C  
+HETATM   79  OAE URG A   8      37.347   3.706  47.720  1.00 65.66           O  
+ANISOU   79  OAE URG A   8     5541  10315   9093   1752  -3447   -107       O  
+HETATM   80  CAF URG A   8      35.319   4.292  46.561  1.00 29.00           C  
+ANISOU   80  CAF URG A   8     3214   4818   2984   1294   -268   -293       C  
+HETATM   81  CAG URG A   8      33.922   4.174  47.165  1.00 22.68           C  
+ANISOU   81  CAG URG A   8     3059   3032   2525    956   -401    -94       C  
+HETATM   82  CAK URG A   8      32.993   5.245  46.622  1.00 15.33           C  
+ANISOU   82  CAK URG A   8     2852   2685    288    273   -236    127       C  
+HETATM   83  CAA URG A   8      31.496   4.810  46.933  1.00 16.72           C  
+ANISOU   83  CAA URG A   8     2897   2756    698     52   -443    207       C  
+HETATM   84  NAH URG A   8      33.185   6.544  47.292  1.00 15.32           N  
+ANISOU   84  NAH URG A   8     2707   2327    784    279   -423    328       N  
+HETATM   85  CAI URG A   8      33.177   7.737  46.666  1.00 13.69           C  
+ANISOU   85  CAI URG A   8     2733   2206    262   -156    -93    113       C  
+HETATM   86  OAC URG A   8      33.179   7.842  45.410  1.00 15.38           O  
+ANISOU   86  OAC URG A   8     2698   2843    303     57   -169    311       O  
+HETATM   87  NAB URG A   8      33.185   8.817  47.452  1.00 13.63           N  
+ANISOU   87  NAB URG A   8     2634   2274    270   -243   -192     73       N  
+HETATM   88  CAA URL A   9      25.377   8.250  45.176  1.00 22.21           C  
+ANISOU   88  CAA URL A   9     2679   3962   1796    319    270    -38       C  
+HETATM   89  CAI URL A   9      26.753   7.582  45.081  1.00 17.63           C  
+ANISOU   89  CAI URL A   9     2505   3269    924     55     31     85       C  
+HETATM   90  CAB URL A   9      26.574   6.114  44.651  1.00 22.27           C  
+ANISOU   90  CAB URL A   9     3432   3270   1757   -315   -268    152       C  
+HETATM   91  CAF URL A   9      27.629   8.361  44.064  1.00 16.80           C  
+ANISOU   91  CAF URL A   9     2063   3330    988     -7    -38     -4       C  
+HETATM   92  CAJ URL A   9      29.025   7.742  43.905  1.00 13.84           C  
+ANISOU   92  CAJ URL A   9     2132   2792    335     46   -387    -82       C  
+HETATM   93  CAC URL A   9      29.987   8.769  43.166  1.00 13.89           C  
+ANISOU   93  CAC URL A   9     2251   2751    273    139   -187    -92       C  
+HETATM   94  NAG URL A   9      29.582   7.392  45.233  1.00 14.60           N  
+ANISOU   94  NAG URL A   9     2478   2764    303     12   -311    128       N  
+HETATM   95  CAH URL A   9      30.169   6.194  45.475  1.00 15.26           C  
+ANISOU   95  CAH URL A   9     2709   2749    337    178   -453    -77       C  
+HETATM   96  OAE URL A   9      30.274   5.329  44.601  1.00 17.40           O  
+ANISOU   96  OAE URL A   9     3071   2902    636    -22   -169   -279       O  
+HETATM   97  NAD URL A   9      30.635   5.968  46.701  1.00 15.06           N  
+ANISOU   97  NAD URL A   9     2577   2828    313    -13   -261    284       N  
+HETATM   98  NAB URK A  10      38.260   6.198  37.995  1.00 33.41           N  
+ANISOU   98  NAB URK A  10     3704   4368   4620    716   1685    -98       N  
+HETATM   99  CAE URK A  10      36.849   5.998  38.352  1.00 25.43           C  
+ANISOU   99  CAE URK A  10     3149   2608   3906    769    619   -342       C  
+HETATM  100  CAF URK A  10      36.325   7.176  39.175  1.00 17.84           C  
+ANISOU  100  CAF URK A  10     2553   2741   1481    133     36   -311       C  
+HETATM  101  CAG URK A  10      34.832   6.972  39.523  1.00 16.49           C  
+ANISOU  101  CAG URK A  10     2496   2629   1139    135    -20   -439       C  
+HETATM  102  CAH URK A  10      34.681   5.849  40.556  1.00 15.64           C  
+ANISOU  102  CAH URK A  10     2386   2704    851    191   -304   -421       C  
+HETATM  103  CAK URK A  10      33.221   5.709  40.998  1.00 15.13           C  
+ANISOU  103  CAK URK A  10     2472   2313    961     89   -249   -583       C  
+HETATM  104  CAA URK A  10      33.019   4.313  41.730  1.00 15.78           C  
+ANISOU  104  CAA URK A  10     2390   2545   1060    170   -370   -348       C  
+HETATM  105  NAI URK A  10      32.826   6.753  41.961  1.00 14.35           N  
+ANISOU  105  NAI URK A  10     2377   2482    593    161    107   -345       N  
+HETATM  106  CAJ URK A  10      31.593   7.336  41.946  1.00 13.44           C  
+ANISOU  106  CAJ URK A  10     2206   2528    371    -16   -231   -452       C  
+HETATM  107  OAD URK A  10      30.771   7.109  41.034  1.00 14.38           O  
+ANISOU  107  OAD URK A  10     2296   2828    337     42   -300   -329       O  
+HETATM  108  NAC URK A  10      31.311   8.177  42.965  1.00 14.01           N  
+ANISOU  108  NAC URK A  10     2487   2478    356    202    -39   -310       N  
+HETATM  109  CAG URG A  11      27.200   2.754  42.241  1.00 26.01           C  
+ANISOU  109  CAG URG A  11     2426   4050   3405   -943   -238    579       C  
+HETATM  110  CAK URG A  11      28.126   3.571  41.350  1.00 20.22           C  
+ANISOU  110  CAK URG A  11     1947   3632   2103   -332   -506    354       C  
+HETATM  111  CAA URG A  11      27.425   4.901  40.921  1.00 19.13           C  
+ANISOU  111  CAA URG A  11     2347   3541   1379   -134   -174    165       C  
+HETATM  112  NAH URG A  11      29.366   3.906  42.089  1.00 19.11           N  
+ANISOU  112  NAH URG A  11     1946   3360   1951   -191   -515    176       N  
+HETATM  113  CAI URG A  11      30.600   3.845  41.526  1.00 15.70           C  
+ANISOU  113  CAI URG A  11     2140   3208    617    112   -585   -142       C  
+HETATM  114  OAC URG A  11      30.760   3.463  40.365  1.00 18.97           O  
+ANISOU  114  OAC URG A  11     3388   3084    733   -120   -405   -305       O  
+HETATM  115  NAB URG A  11      31.652   4.215  42.286  1.00 16.18           N  
+ANISOU  115  NAB URG A  11     2175   3120    852    225   -710   -198       N  
+HETATM  116  CAA ULC A  12      28.353   9.173  35.349  1.00 23.10           C  
+ANISOU  116  CAA ULC A  12     3226   3206   2342     33     57    651       C  
+HETATM  117  CAM ULC A  12      28.541   7.737  35.871  1.00 18.70           C  
+ANISOU  117  CAM ULC A  12     2899   2869   1335   -299   -350     59       C  
+HETATM  118  CAB ULC A  12      28.139   6.740  34.773  1.00 19.34           C  
+ANISOU  118  CAB ULC A  12     2907   4115    326   -582   -434    175       C  
+HETATM  119  CAH ULC A  12      30.002   7.530  36.259  1.00 16.40           C  
+ANISOU  119  CAH ULC A  12     2846   2886    496    -27   -152     76       C  
+HETATM  120  CAN ULC A  12      30.185   6.210  37.011  1.00 14.53           C  
+ANISOU  120  CAN ULC A  12     2501   2754    266    196    -35   -179       C  
+HETATM  121  NAJ ULC A  12      29.744   6.321  38.430  1.00 14.94           N  
+ANISOU  121  NAJ ULC A  12     2648   2754    274     64     -5   -231       N  
+HETATM  122  CAL ULC A  12      28.730   5.573  38.912  1.00 15.30           C  
+ANISOU  122  CAL ULC A  12     2651   2872    291    -96   -175   -250       C  
+HETATM  123  OAF ULC A  12      28.097   4.798  38.174  1.00 19.78           O  
+ANISOU  123  OAF ULC A  12     3087   3363   1063   -591   -586   -221       O  
+HETATM  124  NAD ULC A  12      28.417   5.733  40.209  1.00 16.94           N  
+ANISOU  124  NAD ULC A  12     2679   3480    274   -186   -157   -179       N  
+HETATM  125  CAG ULC A  12      31.679   5.860  36.994  1.00 16.49           C  
+ANISOU  125  CAG ULC A  12     2617   2897    751    341   -229   -244       C  
+HETATM  126  NAI ULC A  12      31.941   4.617  37.744  1.00 16.20           N  
+ANISOU  126  NAI ULC A  12     2920   2819    416    340   -491   -482       N  
+HETATM  127  CAK ULC A  12      33.121   3.980  37.641  1.00 17.27           C  
+ANISOU  127  CAK ULC A  12     2858   2880    824    258   -199   -651       C  
+HETATM  128  OAE ULC A  12      34.010   4.405  36.893  1.00 19.91           O  
+ANISOU  128  OAE ULC A  12     3108   3558    897   -136   -248   -632       O  
+HETATM  129  NAC ULC A  12      33.293   2.874  38.368  1.00 18.77           N  
+ANISOU  129  NAC ULC A  12     3438   2599   1094    324   -570   -830       N  
+HETATM  130  OAF ULN B   1      31.082   1.186  47.508  1.00 77.15           O  
+ANISOU  130  OAF ULN B   1    16481   3444   9386  -2489   4244   1283       O  
+HETATM  131  CAJ ULN B   1      30.655   0.264  46.813  1.00 67.49           C  
+ANISOU  131  CAJ ULN B   1    12779   7542   5320  -1917   3557    909       C  
+HETATM  132  NAH ULN B   1      31.308  -0.148  45.719  1.00 57.31           N  
+ANISOU  132  NAH ULN B   1    10552   6410   4811  -2505   2903   1539       N  
+HETATM  133  CAL ULN B   1      32.541   0.491  45.265  1.00 53.41           C  
+ANISOU  133  CAL ULN B   1     9787   4426   6077  -2035   1601   1899       C  
+HETATM  134  CAC ULN B   1      33.548  -0.564  44.817  1.00 51.64           C  
+ANISOU  134  CAC ULN B   1    10287   3626   5708  -1487   -384   1301       C  
+HETATM  135  CAD ULN B   1      32.212   1.442  44.127  1.00 59.02           C  
+ANISOU  135  CAD ULN B   1    10244   6308   5872   -703    922   2065       C  
+HETATM  136  NAI ULN B   1      29.524  -0.393  47.137  1.00 70.32           N  
+ANISOU  136  NAI ULN B   1    10395   8890   7432   -967   2027   1066       N  
+HETATM  137  CAM ULN B   1      28.725  -0.053  48.331  1.00 57.49           C  
+ANISOU  137  CAM ULN B   1     9664   5580   6600    688    516   1004       C  
+HETATM  138  CAE ULN B   1      28.254  -1.311  49.093  1.00 42.14           C  
+ANISOU  138  CAE ULN B   1     7613   5705   2693    615   -989    287       C  
+HETATM  139  CAG ULN B   1      27.543   0.717  47.783  1.00 57.93           C  
+ANISOU  139  CAG ULN B   1     9769   5165   7074   1087   -148   -815       C  
+HETATM  140  CAA URL B   2      31.459  -5.915  53.013  1.00 20.53           C  
+ANISOU  140  CAA URL B   2     4111   2333   1355    466    228   -116       C  
+HETATM  141  CAI URL B   2      31.177  -4.441  52.719  1.00 19.37           C  
+ANISOU  141  CAI URL B   2     3970   2162   1224    283    198   -398       C  
+HETATM  142  CAB URL B   2      30.550  -3.776  53.961  1.00 21.54           C  
+ANISOU  142  CAB URL B   2     4512   2783    888    381    529    -25       C  
+HETATM  143  CAF URL B   2      32.494  -3.742  52.343  1.00 20.49           C  
+ANISOU  143  CAF URL B   2     4194   2277   1314    256    349    -93       C  
+HETATM  144  CAJ URL B   2      32.219  -2.354  51.752  1.00 21.53           C  
+ANISOU  144  CAJ URL B   2     4549   2300   1331     96    733    -62       C  
+HETATM  145  CAC URL B   2      33.511  -1.751  51.268  1.00 23.30           C  
+ANISOU  145  CAC URL B   2     4963   2092   1796    160   1390    -84       C  
+HETATM  146  NAG URL B   2      31.313  -2.496  50.633  1.00 24.44           N  
+ANISOU  146  NAG URL B   2     5151   3139    996    340    596     51       N  
+HETATM  147  CAH URL B   2      30.200  -1.785  50.512  1.00 22.49           C  
+ANISOU  147  CAH URL B   2     5031   3074    440     96    301   -382       C  
+HETATM  148  OAE URL B   2      29.881  -0.922  51.340  1.00 28.58           O  
+ANISOU  148  OAE URL B   2     5911   3317   1629    259    431   -950       O  
+HETATM  149  NAD URL B   2      29.435  -2.083  49.463  1.00 31.04           N  
+ANISOU  149  NAD URL B   2     7009   4334    448    102   -549   -350       N  
+HETATM  150  NAB URK B   3      38.554   4.825  51.350  1.00 51.48           N  
+ANISOU  150  NAB URK B   3     4674   5455   9430   -201    977   -110       N  
+HETATM  151  CAE URK B   3      37.527   3.879  51.816  1.00 49.13           C  
+ANISOU  151  CAE URK B   3     3890   5895   8879     -8   1639   -817       C  
+HETATM  152  CAF URK B   3      36.210   4.600  52.111  1.00 40.52           C  
+ANISOU  152  CAF URK B   3     3960   4416   7019   -325   1572   -449       C  
+HETATM  153  CAG URK B   3      35.091   3.580  52.306  1.00 26.30           C  
+ANISOU  153  CAG URK B   3     3737   3662   2593    -93    375   -306       C  
+HETATM  154  CAH URK B   3      33.850   4.072  51.570  1.00 22.88           C  
+ANISOU  154  CAH URK B   3     3532   2575   2586   -128    623   -266       C  
+HETATM  155  CAK URK B   3      32.687   3.095  51.758  1.00 17.59           C  
+ANISOU  155  CAK URK B   3     3989   1723    970    121    915    317       C  
+HETATM  156  CAA URK B   3      31.409   3.763  51.226  1.00 20.82           C  
+ANISOU  156  CAA URK B   3     3441   2845   1625   -158    717    410       C  
+HETATM  157  NAI URK B   3      32.949   1.849  51.003  1.00 19.46           N  
+ANISOU  157  NAI URK B   3     4411   1466   1516    -18    892    279       N  
+HETATM  158  CAJ URK B   3      33.062   0.644  51.590  1.00 19.06           C  
+ANISOU  158  CAJ URK B   3     4895   1518    829    203   1608    222       C  
+HETATM  159  OAD URK B   3      32.945   0.509  52.828  1.00 20.76           O  
+ANISOU  159  OAD URK B   3     4597   2777    512    116    825   -146       O  
+HETATM  160  NAC URK B   3      33.279  -0.400  50.778  1.00 23.48           N  
+ANISOU  160  NAC URK B   3     5451   1760   1709    -47   1466   -357       N  
+HETATM  161  CAA URL B   4      24.292   3.120  52.493  1.00 17.44           C  
+ANISOU  161  CAA URL B   4     3018   2941    666   -706   -548    797       C  
+HETATM  162  CAI URL B   4      25.814   3.019  52.691  1.00 15.72           C  
+ANISOU  162  CAI URL B   4     2928   2659    385   -710   -314    323       C  
+HETATM  163  CAB URL B   4      26.261   4.117  53.665  1.00 15.65           C  
+ANISOU  163  CAB URL B   4     3123   2551    269   -515    -45    194       C  
+HETATM  164  CAF URL B   4      26.170   1.608  53.237  1.00 16.75           C  
+ANISOU  164  CAF URL B   4     3032   2581    749   -679   -111    281       C  
+HETATM  165  CAJ URL B   4      27.687   1.449  53.544  1.00 15.44           C  
+ANISOU  165  CAJ URL B   4     2958   2635    274   -776    181     86       C  
+HETATM  166  CAC URL B   4      27.996  -0.032  53.994  1.00 16.71           C  
+ANISOU  166  CAC URL B   4     3175   2508    663   -563    101    -96       C  
+HETATM  167  NAG URL B   4      28.545   1.784  52.364  1.00 17.39           N  
+ANISOU  167  NAG URL B   4     3473   2742    392   -869    472    -34       N  
+HETATM  168  CAH URL B   4      29.565   2.685  52.413  1.00 16.35           C  
+ANISOU  168  CAH URL B   4     3380   2526    304   -732    392    -33       C  
+HETATM  169  OAE URL B   4      29.809   3.370  53.429  1.00 15.77           O  
+ANISOU  169  OAE URL B   4     3340   2395    257   -441     56     70       O  
+HETATM  170  NAD URL B   4      30.282   2.837  51.289  1.00 18.15           N  
+ANISOU  170  NAD URL B   4     3563   2879    451   -319    508    509       N  
+HETATM  171  OAD URG B   5      35.613   0.817  57.679  1.00 38.57           O  
+ANISOU  171  OAD URG B   5     6123   5875   2656   1322     97    330       O  
+HETATM  172  CAJ URG B   5      35.484   0.583  56.457  1.00 31.11           C  
+ANISOU  172  CAJ URG B   5     4321   4457   3041    711   -382     46       C  
+HETATM  173  OAE URG B   5      36.086   1.169  55.537  1.00 39.07           O  
+ANISOU  173  OAE URG B   5     4517   6062   4264    423   -261    901       O  
+HETATM  174  CAF URG B   5      34.454  -0.487  56.035  1.00 29.35           C  
+ANISOU  174  CAF URG B   5     4020   3868   3261    706    750    -14       C  
+HETATM  175  CAG URG B   5      33.217  -0.445  56.940  1.00 25.74           C  
+ANISOU  175  CAG URG B   5     3673   3180   2926    717    549    -24       C  
+HETATM  176  CAK URG B   5      32.194   0.607  56.448  1.00 20.07           C  
+ANISOU  176  CAK URG B   5     3091   3221   1311    146     21   -228       C  
+HETATM  177  CAA URG B   5      32.859   2.019  56.097  1.00 20.04           C  
+ANISOU  177  CAA URG B   5     3070   3093   1448    255    192   -446       C  
+HETATM  178  NAH URG B   5      31.414   0.163  55.276  1.00 17.41           N  
+ANISOU  178  NAH URG B   5     2742   2905    965    130    352   -131       N  
+HETATM  179  CAI URG B   5      30.067   0.155  55.291  1.00 15.74           C  
+ANISOU  179  CAI URG B   5     2673   3012    296   -214    213   -276       C  
+HETATM  180  OAC URG B   5      29.425   0.410  56.340  1.00 17.26           O  
+ANISOU  180  OAC URG B   5     3271   2899    387   -115    338   -517       O  
+HETATM  181  NAB URG B   5      29.444  -0.163  54.143  1.00 16.59           N  
+ANISOU  181  NAB URG B   5     3202   2754    348   -544    174   -377       N  
+HETATM  182  CAG URY B   6      28.271   7.779  58.273  1.00 17.25           C  
+ANISOU  182  CAG URY B   6     3170   3118    263    219     13   -171       C  
+HETATM  183  CAE URY B   6      27.493   8.590  59.108  1.00 18.29           C  
+ANISOU  183  CAE URY B   6     3239   3003    704    393    281     37       C  
+HETATM  184  CAL URY B   6      26.098   8.575  59.007  1.00 19.27           C  
+ANISOU  184  CAL URY B   6     3203   3637    479    827    383    134       C  
+HETATM  185  OAD URY B   6      25.338   9.360  59.834  1.00 26.47           O  
+ANISOU  185  OAD URY B   6     4466   4184   1408   1651    776     91       O  
+HETATM  186  CAF URY B   6      25.482   7.742  58.064  1.00 19.75           C  
+ANISOU  186  CAF URY B   6     3027   3862    612    968    142    101       C  
+HETATM  187  CAH URY B   6      26.253   6.943  57.222  1.00 17.02           C  
+ANISOU  187  CAH URY B   6     2539   3418    508    460     78     -5       C  
+HETATM  188  CAM URY B   6      27.648   6.950  57.337  1.00 15.31           C  
+ANISOU  188  CAM URY B   6     2548   2697    572    155    161   -117       C  
+HETATM  189  CAI URY B   6      28.459   6.144  56.433  1.00 14.94           C  
+ANISOU  189  CAI URY B   6     2640   2591    444    163   -100   -346       C  
+HETATM  190  CAN URY B   6      28.963   4.877  57.101  1.00 15.55           C  
+ANISOU  190  CAN URY B   6     2629   2699    579    143   -231   -344       C  
+HETATM  191  CAA URY B   6      27.744   3.903  57.395  1.00 14.74           C  
+ANISOU  191  CAA URY B   6     2965   2328    308     60   -240   -270       C  
+HETATM  192  NAJ URY B   6      29.921   4.218  56.196  1.00 15.58           N  
+ANISOU  192  NAJ URY B   6     2741   2792    384    151    -82    -67       N  
+HETATM  193  CAK URY B   6      31.004   3.543  56.635  1.00 16.47           C  
+ANISOU  193  CAK URY B   6     2779   3208    271    352     56   -211       C  
+HETATM  194  OAC URY B   6      31.273   3.471  57.844  1.00 18.52           O  
+ANISOU  194  OAC URY B   6     2999   3773    264    299      6   -194       O  
+HETATM  195  NAB URY B   6      31.778   2.941  55.712  1.00 17.36           N  
+ANISOU  195  NAB URY B   6     2955   3315    323    145    175   -413       N  
+HETATM  196  CAA URL B   7      26.517  -1.885  61.512  1.00 24.38           C  
+ANISOU  196  CAA URL B   7     5042   2712   1507   -341    746   -679       C  
+HETATM  197  CAI URL B   7      27.197  -0.529  61.258  1.00 20.68           C  
+ANISOU  197  CAI URL B   7     4219   3092    546   -323    438   -340       C  
+HETATM  198  CAB URL B   7      26.974   0.369  62.467  1.00 26.67           C  
+ANISOU  198  CAB URL B   7     5509   3298   1326   -515    856   -908       C  
+HETATM  199  CAF URL B   7      28.700  -0.763  61.033  1.00 20.16           C  
+ANISOU  199  CAF URL B   7     3950   2926    782     88     34   -470       C  
+HETATM  200  CAJ URL B   7      29.434   0.517  60.607  1.00 17.65           C  
+ANISOU  200  CAJ URL B   7     3136   3256    314     40   -264   -337       C  
+HETATM  201  CAC URL B   7      30.955   0.195  60.570  1.00 19.63           C  
+ANISOU  201  CAC URL B   7     3135   3935    387     87   -236   -658       C  
+HETATM  202  NAG URL B   7      28.985   0.983  59.264  1.00 16.97           N  
+ANISOU  202  NAG URL B   7     3195   2916    337    330   -262   -427       N  
+HETATM  203  CAH URL B   7      28.520   2.239  59.025  1.00 17.05           C  
+ANISOU  203  CAH URL B   7     3434   2747    293     60   -308   -168       C  
+HETATM  204  OAE URL B   7      28.396   3.069  59.937  1.00 18.40           O  
+ANISOU  204  OAE URL B   7     3686   3027    274    322   -139   -222       O  
+HETATM  205  NAD URL B   7      28.194   2.552  57.746  1.00 15.21           N  
+ANISOU  205  NAD URL B   7     2960   2558    259    198    -69   -101       N  
+HETATM  206  OAD URG B   8      37.362   5.949  60.258  1.00 51.34           O  
+ANISOU  206  OAD URG B   8     5420   9989   4095  -2560  -1348   1493       O  
+HETATM  207  CAJ URG B   8      37.094   5.090  61.134  1.00 47.95           C  
+ANISOU  207  CAJ URG B   8     2783   9230   6204  -1432  -1133   2348       C  
+HETATM  208  OAE URG B   8      37.907   4.299  61.655  1.00 53.16           O  
+ANISOU  208  OAE URG B   8     5350   8706   6142  -1366  -2599   2878       O  
+HETATM  209  CAF URG B   8      35.632   4.992  61.603  1.00 40.49           C  
+ANISOU  209  CAF URG B   8     3730   8563   3089  -2113   -230   1637       C  
+HETATM  210  CAG URG B   8      34.737   4.750  60.401  1.00 38.52           C  
+ANISOU  210  CAG URG B   8     2852   7831   3952  -2002   -315    949       C  
+HETATM  211  CAK URG B   8      33.322   4.500  60.874  1.00 27.45           C  
+ANISOU  211  CAK URG B   8     3403   6669    355  -1181    330    509       C  
+HETATM  212  CAA URG B   8      32.408   5.747  60.554  1.00 25.66           C  
+ANISOU  212  CAA URG B   8     2967   6494    286  -1148    147    320       C  
+HETATM  213  NAH URG B   8      32.770   3.327  60.179  1.00 29.25           N  
+ANISOU  213  NAH URG B   8     3461   6612   1040  -1373    179    427       N  
+HETATM  214  CAI URG B   8      32.226   2.288  60.809  1.00 22.79           C  
+ANISOU  214  CAI URG B   8     3349   5027    280   -585    -88   -320       C  
+HETATM  215  OAC URG B   8      32.194   2.226  62.044  1.00 26.43           O  
+ANISOU  215  OAC URG B   8     3694   6057    288   -838    311   -280       O  
+HETATM  216  NAB URG B   8      31.698   1.331  60.034  1.00 21.27           N  
+ANISOU  216  NAB URG B   8     3430   4222    429     89     84   -540       N  
+HETATM  217  CAA URL B   9      25.194   5.596  61.759  1.00 26.91           C  
+ANISOU  217  CAA URL B   9     4358   3569   2297  -1622    656   -617       C  
+HETATM  218  CAI URL B   9      26.673   5.653  62.084  1.00 23.36           C  
+ANISOU  218  CAI URL B   9     4756   3582    538  -1856    456   -211       C  
+HETATM  219  CAB URL B   9      26.978   6.979  62.809  1.00 27.19           C  
+ANISOU  219  CAB URL B   9     5978   3689    664  -1531    233   -432       C  
+HETATM  220  CAF URL B   9      27.010   4.482  62.993  1.00 20.92           C  
+ANISOU  220  CAF URL B   9     3981   3516    451  -1604    828   -549       C  
+HETATM  221  CAJ URL B   9      28.501   4.427  63.258  1.00 22.17           C  
+ANISOU  221  CAJ URL B   9     3743   4100    580  -1850    905   -993       C  
+HETATM  222  CAC URL B   9      28.784   3.046  63.901  1.00 25.00           C  
+ANISOU  222  CAC URL B   9     4154   4048   1296  -1481    819  -1300       C  
+HETATM  223  NAG URL B   9      29.249   4.600  61.971  1.00 25.15           N  
+ANISOU  223  NAG URL B   9     3871   5264    420  -2124    724   -711       N  
+HETATM  224  CAH URL B   9      30.464   5.204  61.891  1.00 25.66           C  
+ANISOU  224  CAH URL B   9     3617   5773    360  -2015    454    170       C  
+HETATM  225  OAE URL B   9      31.049   5.647  62.878  1.00 32.08           O  
+ANISOU  225  OAE URL B   9     5274   6229    684  -2883    474   -496       O  
+HETATM  226  NAD URL B   9      31.022   5.313  60.676  1.00 25.18           N  
+ANISOU  226  NAD URL B   9     3266   5961    341  -1481    386    246       N  
+HETATM  227  NAB URK B  10      36.966   0.418  69.091  1.00 49.42           N  
+ANISOU  227  NAB URK B  10     4719   7222   6834   -126   1034   1322       N  
+HETATM  228  CAE URK B  10      35.964   1.421  68.708  1.00 36.69           C  
+ANISOU  228  CAE URK B  10     5164   5247   3529   -892    124    225       C  
+HETATM  229  CAF URK B  10      34.928   0.826  67.750  1.00 30.22           C  
+ANISOU  229  CAF URK B  10     4787   4650   2045   -825   1430   -814       C  
+HETATM  230  CAG URK B  10      33.776   1.823  67.547  1.00 26.95           C  
+ANISOU  230  CAG URK B  10     4592   4302   1345  -1094    868  -1114       C  
+HETATM  231  CAH URK B  10      34.184   2.900  66.535  1.00 26.95           C  
+ANISOU  231  CAH URK B  10     4225   4879   1135  -1509   1155  -1154       C  
+HETATM  232  CAK URK B  10      33.016   3.852  66.224  1.00 25.04           C  
+ANISOU  232  CAK URK B  10     4131   4418    962  -1708    872  -1329       C  
+HETATM  233  CAA URK B  10      33.588   5.194  65.625  1.00 27.51           C  
+ANISOU  233  CAA URK B  10     4937   4686    829  -1721    133   -595       C  
+HETATM  234  NAI URK B  10      32.152   3.264  65.205  1.00 27.92           N  
+ANISOU  234  NAI URK B  10     4327   5325    954  -2170   1139  -1670       N  
+HETATM  235  CAJ URK B  10      30.824   3.423  65.185  1.00 27.39           C  
+ANISOU  235  CAJ URK B  10     4485   5076    846  -1766    987  -1630       C  
+HETATM  236  OAD URK B  10      30.211   3.993  66.107  1.00 29.23           O  
+ANISOU  236  OAD URK B  10     5343   4971    792  -1601   1481  -1138       O  
+HETATM  237  NAC URK B  10      30.200   2.892  64.142  1.00 25.84           N  
+ANISOU  237  NAC URK B  10     4238   5054    525  -1735    836   -990       N  
+HETATM  238  CAG URG B  11      29.522   9.524  65.388  1.00 34.70           C  
+ANISOU  238  CAG URG B  11     6753   4471   1958  -1935  -1281    427       C  
+HETATM  239  CAK URG B  11      29.786   8.225  66.134  1.00 30.10           C  
+ANISOU  239  CAK URG B  11     5949   4142   1345  -2058   -791     70       C  
+HETATM  240  CAA URG B  11      28.418   7.460  66.403  1.00 26.38           C  
+ANISOU  240  CAA URG B  11     5378   4194    449  -1612   -959    538       C  
+HETATM  241  NAH URG B  11      30.711   7.377  65.355  1.00 28.17           N  
+ANISOU  241  NAH URG B  11     5990   4221    490  -1965  -1134    593       N  
+HETATM  242  CAI URG B  11      31.786   6.802  65.903  1.00 26.83           C  
+ANISOU  242  CAI URG B  11     5361   4516    315  -1853   -479    -75       C  
+HETATM  243  OAC URG B  11      32.085   6.974  67.097  1.00 28.70           O  
+ANISOU  243  OAC URG B  11     5890   4701    313  -2566   -383   -161       O  
+HETATM  244  NAB URG B  11      32.502   6.028  65.114  1.00 26.83           N  
+ANISOU  244  NAB URG B  11     4794   5046    353  -2035   -175   -131       N  
+HETATM  245  CAA ULC B  12      26.575   2.263  71.115  1.00 21.58           C  
+ANISOU  245  CAA ULC B  12     3884   2918   1398     19    612   -257       C  
+HETATM  246  CAM ULC B  12      27.326   3.520  70.644  1.00 22.18           C  
+ANISOU  246  CAM ULC B  12     3434   3037   1956    -57    716   -441       C  
+HETATM  247  CAB ULC B  12      26.972   4.687  71.568  1.00 24.79           C  
+ANISOU  247  CAB ULC B  12     3984   3427   2005    -34    933   -649       C  
+HETATM  248  CAH ULC B  12      28.828   3.237  70.703  1.00 18.56           C  
+ANISOU  248  CAH ULC B  12     3455   3161    433    -90    308   -403       C  
+HETATM  249  CAN ULC B  12      29.659   4.410  70.142  1.00 19.52           C  
+ANISOU  249  CAN ULC B  12     3562   3460    394   -311    147   -320       C  
+HETATM  250  NAJ ULC B  12      29.307   4.745  68.749  1.00 18.84           N  
+ANISOU  250  NAJ ULC B  12     3734   3077    345   -442     37   -509       N  
+HETATM  251  CAL ULC B  12      28.908   5.997  68.347  1.00 21.70           C  
+ANISOU  251  CAL ULC B  12     4888   3041    315   -844   -372   -223       C  
+HETATM  252  OAF ULC B  12      28.762   6.946  69.146  1.00 23.26           O  
+ANISOU  252  OAF ULC B  12     5138   3382    315   -898    -36   -363       O  
+HETATM  253  NAD ULC B  12      28.683   6.151  67.026  1.00 25.42           N  
+ANISOU  253  NAD ULC B  12     5525   3778    353  -1301   -628   -127       N  
+HETATM  254  CAG ULC B  12      31.148   3.995  70.158  1.00 22.31           C  
+ANISOU  254  CAG ULC B  12     3372   4141    961   -450    260   -754       C  
+HETATM  255  NAI ULC B  12      31.980   5.044  69.532  1.00 23.74           N  
+ANISOU  255  NAI ULC B  12     3880   4339    799   -983    678  -1449       N  
+HETATM  256  CAK ULC B  12      33.290   5.175  69.791  1.00 26.77           C  
+ANISOU  256  CAK ULC B  12     3966   5068   1136  -1080    700  -1260       C  
+HETATM  257  OAE ULC B  12      33.875   4.427  70.581  1.00 35.25           O  
+ANISOU  257  OAE ULC B  12     4781   5698   2914   -441   -146  -1351       O  
+HETATM  258  NAC ULC B  12      33.926   6.166  69.189  1.00 28.21           N  
+ANISOU  258  NAC ULC B  12     4468   5417    832  -1363    521   -989       N  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    3    2    4
+CONECT    4    3    5    6
+CONECT    5    4
+CONECT    6    4
+CONECT    7    2    8
+CONECT    8    7    9   10
+CONECT    9    8   20
+CONECT   10    8
+CONECT   11   12
+CONECT   12   11   13   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   15   14   16   17
+CONECT   16   15   31
+CONECT   17   15   18
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20    9   18
+CONECT   21   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27   28
+CONECT   27   26   41
+CONECT   28   26   29
+CONECT   29   28   30   31
+CONECT   30   29
+CONECT   31   16   29
+CONECT   32   33
+CONECT   33   32   34   35
+CONECT   34   33
+CONECT   35   33   36
+CONECT   36   35   37   38
+CONECT   37   36   52
+CONECT   38   36   39
+CONECT   39   38   40   41
+CONECT   40   39
+CONECT   41   27   39
+CONECT   42   43
+CONECT   43   42   44   45
+CONECT   44   43
+CONECT   45   43   46
+CONECT   46   45   47
+CONECT   47   46   48   49
+CONECT   48   47   66
+CONECT   49   47   50
+CONECT   50   49   51   52
+CONECT   51   50
+CONECT   52   37   50
+CONECT   53   54   59
+CONECT   54   53   55
+CONECT   55   54   56   57
+CONECT   56   55
+CONECT   57   55   58
+CONECT   58   57   59
+CONECT   59   53   58   60
+CONECT   60   59   61
+CONECT   61   60   62   63
+CONECT   62   61   76
+CONECT   63   61   64
+CONECT   64   63   65   66
+CONECT   65   64
+CONECT   66   48   64
+CONECT   67   68
+CONECT   68   67   69   70
+CONECT   69   68
+CONECT   70   68   71
+CONECT   71   70   72   73
+CONECT   72   71   87
+CONECT   73   71   74
+CONECT   74   73   75   76
+CONECT   75   74
+CONECT   76   62   74
+CONECT   77   78
+CONECT   78   77   79   80
+CONECT   79   78
+CONECT   80   78   81
+CONECT   81   80   82
+CONECT   82   81   83   84
+CONECT   83   82   97
+CONECT   84   82   85
+CONECT   85   84   86   87
+CONECT   86   85
+CONECT   87   72   85
+CONECT   88   89
+CONECT   89   88   90   91
+CONECT   90   89
+CONECT   91   89   92
+CONECT   92   91   93   94
+CONECT   93   92  108
+CONECT   94   92   95
+CONECT   95   94   96   97
+CONECT   96   95
+CONECT   97   83   95
+CONECT   98   99
+CONECT   99   98  100
+CONECT  100   99  101
+CONECT  101  100  102
+CONECT  102  101  103
+CONECT  103  102  104  105
+CONECT  104  103  115
+CONECT  105  103  106
+CONECT  106  105  107  108
+CONECT  107  106
+CONECT  108   93  106
+CONECT  109  110
+CONECT  110  109  111  112
+CONECT  111  110  124
+CONECT  112  110  113
+CONECT  113  112  114  115
+CONECT  114  113
+CONECT  115  104  113
+CONECT  116  117
+CONECT  117  116  118  119
+CONECT  118  117
+CONECT  119  117  120
+CONECT  120  119  121  125
+CONECT  121  120  122
+CONECT  122  121  123  124
+CONECT  123  122
+CONECT  124  111  122
+CONECT  125  120  126
+CONECT  126  125  127
+CONECT  127  126  128  129
+CONECT  128  127
+CONECT  129  127
+CONECT  130  131
+CONECT  131  130  132  136
+CONECT  132  131  133
+CONECT  133  132  134  135
+CONECT  134  133
+CONECT  135  133
+CONECT  136  131  137
+CONECT  137  136  138  139
+CONECT  138  137  149
+CONECT  139  137
+CONECT  140  141
+CONECT  141  140  142  143
+CONECT  142  141
+CONECT  143  141  144
+CONECT  144  143  145  146
+CONECT  145  144  160
+CONECT  146  144  147
+CONECT  147  146  148  149
+CONECT  148  147
+CONECT  149  138  147
+CONECT  150  151
+CONECT  151  150  152
+CONECT  152  151  153
+CONECT  153  152  154
+CONECT  154  153  155
+CONECT  155  154  156  157
+CONECT  156  155  170
+CONECT  157  155  158
+CONECT  158  157  159  160
+CONECT  159  158
+CONECT  160  145  158
+CONECT  161  162
+CONECT  162  161  163  164
+CONECT  163  162
+CONECT  164  162  165
+CONECT  165  164  166  167
+CONECT  166  165  181
+CONECT  167  165  168
+CONECT  168  167  169  170
+CONECT  169  168
+CONECT  170  156  168
+CONECT  171  172
+CONECT  172  171  173  174
+CONECT  173  172
+CONECT  174  172  175
+CONECT  175  174  176
+CONECT  176  175  177  178
+CONECT  177  176  195
+CONECT  178  176  179
+CONECT  179  178  180  181
+CONECT  180  179
+CONECT  181  166  179
+CONECT  182  183  188
+CONECT  183  182  184
+CONECT  184  183  185  186
+CONECT  185  184
+CONECT  186  184  187
+CONECT  187  186  188
+CONECT  188  182  187  189
+CONECT  189  188  190
+CONECT  190  189  191  192
+CONECT  191  190  205
+CONECT  192  190  193
+CONECT  193  192  194  195
+CONECT  194  193
+CONECT  195  177  193
+CONECT  196  197
+CONECT  197  196  198  199
+CONECT  198  197
+CONECT  199  197  200
+CONECT  200  199  201  202
+CONECT  201  200  216
+CONECT  202  200  203
+CONECT  203  202  204  205
+CONECT  204  203
+CONECT  205  191  203
+CONECT  206  207
+CONECT  207  206  208  209
+CONECT  208  207
+CONECT  209  207  210
+CONECT  210  209  211
+CONECT  211  210  212  213
+CONECT  212  211  226
+CONECT  213  211  214
+CONECT  214  213  215  216
+CONECT  215  214
+CONECT  216  201  214
+CONECT  217  218
+CONECT  218  217  219  220
+CONECT  219  218
+CONECT  220  218  221
+CONECT  221  220  222  223
+CONECT  222  221  237
+CONECT  223  221  224
+CONECT  224  223  225  226
+CONECT  225  224
+CONECT  226  212  224
+CONECT  227  228
+CONECT  228  227  229
+CONECT  229  228  230
+CONECT  230  229  231
+CONECT  231  230  232
+CONECT  232  231  233  234
+CONECT  233  232  244
+CONECT  234  232  235
+CONECT  235  234  236  237
+CONECT  236  235
+CONECT  237  222  235
+CONECT  238  239
+CONECT  239  238  240  241
+CONECT  240  239  253
+CONECT  241  239  242
+CONECT  242  241  243  244
+CONECT  243  242
+CONECT  244  233  242
+CONECT  245  246
+CONECT  246  245  247  248
+CONECT  247  246
+CONECT  248  246  249
+CONECT  249  248  250  254
+CONECT  250  249  251
+CONECT  251  250  252  253
+CONECT  252  251
+CONECT  253  240  251
+CONECT  254  249  255
+CONECT  255  254  256
+CONECT  256  255  257  258
+CONECT  257  256
+CONECT  258  256
+END
