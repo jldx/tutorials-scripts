@@ -6,16 +6,16 @@
 # ============================================================
 
 # --- Input files ---
-topology='../crystal_membrane_solv_ions.pdb'   # Topology file (.pdb)
-trajectory='SHY758cm_0_100_0_10_fit.xtc'       # Trajectory file (.xtc)
+topology='../../top.pdb'   # Topology file (.pdb)
+trajectory='../../traj.xtc'       # Trajectory file (.xtc)
 
 # --- Residue ranges (AMBER selection format) ---
-partner_1='1-100'    # First  partner (donor & acceptor)
-partner_2='100-300'  # Second partner (donor & acceptor)
+partner_1='1-10'    # First  partner (donor & acceptor)
+partner_2='10-100'  # Second partner (donor & acceptor)
 
 # --- Output settings ---
-output_prefix='test'           # Prefix for all final output files
-script_file='test.cpptraj'     # Temporary cpptraj input script
+output_prefix='prefix'           # Prefix for all final output files
+script_file='hbonds.cpptraj'     # Temporary cpptraj input script
 
 # ============================================================
 # Build and run the cpptraj script
@@ -51,11 +51,13 @@ cat tmp1.hbonds.avgout.dat \
     <(tail -n +2 tmp2.hbonds.avgout.dat) \
     > "${output_prefix}.hbonds.avgout.dat"
 
-# numbers: paste side by side, keep only last column of tmp2
+# numbers: paste side by side, keep only last column of tmp2 and sum up the values
 # (avoids duplicating the frame index column)
 paste tmp1.hbonds.numbers.dat \
     <(awk '{print $NF}' tmp2.hbonds.numbers.dat) \
-    > "${output_prefix}.hbonds.numbers.dat"
+    > "tmp3.hbonds.numbers.dat"
+
+awk 'NR==1 {print $1, "HB_total"} NR>1 {print $1, $2+$3}' tmp3.hbonds.numbers.dat > ${output_prefix}.hbonds.numbers.dat
 
 # series: paste side by side, drop first column of tmp2
 # (avoids duplicating the frame index column)
@@ -68,5 +70,6 @@ paste tmp1.hbonds.series.npy \
 # ============================================================
 rm "${script_file}" \
    tmp1.hbonds.avgout.dat tmp2.hbonds.avgout.dat \
-   tmp1.hbonds.numbers.dat tmp2.hbonds.numbers.dat \
+   tmp1.hbonds.numbers.dat tmp2.hbonds.numbers.dat tmp3.hbonds.numbers.dat \
    tmp1.hbonds.series.npy tmp2.hbonds.series.npy
+
