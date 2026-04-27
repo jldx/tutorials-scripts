@@ -1,0 +1,88 @@
+################################################################################
+# AMBER TOPOLOGY AND COORDINATE FILE GENERATION USING LEAP
+################################################################################
+#
+# Purpose:
+#   This LEaP script generates AMBER topology (.parm7) and coordinate (.inpcrd)
+#   files from a PDB structure. These files are essential for molecular dynamics
+#   simulations using AMBER or GROMACS (via conversion).
+#
+# Workflow:
+#   1. Load force field (ff19SB - modern AMBER protein force field)
+#   2. Set solvent radius model (Bondi radii for GB implicit solvent)
+#   3. Load protein structure from PDB file
+#   4. Generate and save topology and coordinate files
+#   5. Exit LEaP gracefully
+#
+# Output Files:
+#   - <prefix>.parm7: AMBER topology file (force field parameters, atom types, bonds, angles, dihedrals)
+#   - <prefix>.inpcrd: AMBER coordinate file (atomic positions)
+#   - leap.log: LEaP logfile with warnings and diagnostic information
+#
+# Prerequisites:
+#   - AMBER software suite installed
+#   - Input PDB structure file
+#   - Clean/prepared PDB (missing atoms added, protonation states corrected)
+#
+# Force Field Information:
+#   - ff19SB: AMBER 2019 protein force field
+#   - Improved dihedral parameters vs ff14SB
+#   - Better description of protein dynamics
+#   - Compatible with GROMACS (via parmed conversion)
+#
+# Notes:
+#   - Bondi radii are standard for GB/SA implicit solvent calculations
+#   - For explicit solvent simulations, use ff19SB with TIP3P/TIP4PEW water
+#   - Output files are required for downstream MD simulations
+#
+################################################################################
+
+# ===== LOAD AMBER FORCE FIELD =====
+# Source the ff19SB force field (AMBER 2019 protein parameters)
+# Loads all atom types, bond parameters, angle parameters, and dihedral parameters
+# ff19SB is optimized for protein dynamics and is recommended for most applications
+source leaprc.protein.ff19SB
+
+# ===== SET SOLVATION PARAMETERS =====
+# Define Bondi radii model for implicit solvent calculations
+# Bondi radii are van der Waals radii commonly used in GB/SA implicit solvent
+# These radii are used for calculating Born radii and solvation free energies
+set default pbradii bondi
+
+
+# ===== LOAD PROTEIN STRUCTURE =====
+# Load the input PDB structure file
+# Replace <prefix> with your actual protein structure filename (without .pdb extension)
+# Example: if your file is "protein.pdb", use: mol = loadpdb protein.pdb
+#
+# Important: Ensure PDB is properly prepared:
+#   - Missing heavy atoms added (N-terminus, C-terminus, side chains)
+#   - Correct protonation states (His, Asp, Glu, Lys, Tyr, Cys)
+#   - No clashes or unusual geometries
+#   - Water molecules and ions removed (if not modeling them explicitly)
+mol = loadpdb <prefix>.pdb
+
+
+# ===== GENERATE TOPOLOGY AND COORDINATES =====
+# Create AMBER topology and coordinate files from the loaded structure
+# Parameters:
+#   mol: The molecular structure object to save
+#   <prefix>.parm7: Output AMBER topology file
+#     * Contains atom types, charges, masses
+#     * Bond, angle, dihedral force field parameters
+#     * Connectivity and force field assignment
+#   <prefix>.inpcrd: Output AMBER coordinate/restart file
+#     * Atomic coordinates (positions)
+#     * Box dimensions (if periodic, otherwise zeros)
+#     * Velocities (optional, usually not included)
+#   leap.log: Logfile with diagnostic messages and warnings
+#
+# Note: Both .parm7 and .inpcrd are required for MD simulations
+# These can be converted to GROMACS format using parmed:
+#   parmed -i <prefix>.parm7 -c <prefix>.inpcrd -o system.gro -p system.top
+saveamberparm mol <prefix>.parm7 <prefix>.inpcrd and leap.log
+
+# ===== EXIT LEAP =====
+# Close the LEaP session gracefully
+# This ensures all files are properly written and closed
+quit

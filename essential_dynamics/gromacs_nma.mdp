@@ -1,0 +1,12 @@
+; Normal Mode Analysis MDP
+integrator        = nm            ; Normal mode integrator
+nsteps            = 1             ; Single step, no dynamics
+emtol             = 1e-6          ; Extremely tight convergence criteria
+emstep            = 1e-4          ; Initial step size in energy minimization
+
+; Output control
+nstxout           = 1             ; Trajectory output
+nstvout           = 0             ; No velocities output
+nstenergy         = 1             ; Output energy every step
+nstlog            = 1             ; Log information every step
+
