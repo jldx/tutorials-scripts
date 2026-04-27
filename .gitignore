@@ -1,0 +1,5 @@
+analysis/.traj.xtc_offsets.lock
+analysis/.traj.xtc_offsets.npz
+analysis/top.pdb
+analysis/traj.xtc
+scripts-old
