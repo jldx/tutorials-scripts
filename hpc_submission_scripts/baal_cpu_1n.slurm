@@ -131,6 +131,10 @@ gpus=$(get_gpu-ids)
 ################################################################################
 # User Simulation Commands
 ################################################################################
+
+module load gromacs/gnu/2024.4
+module load gcc/12.2.0
+
 # Add your GROMACS commands below (grompp, mdrun, etc.)
 # Example:
 #   gmx grompp -f simulation.mdp -o simulation.tpr -c input.gro -p topol.top

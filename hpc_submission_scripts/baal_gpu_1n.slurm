@@ -139,25 +139,12 @@ echo "✓ GPU(s) assigned to this job: $gpus"
 export CUDA_VISIBLE_DEVICES=$gpus
 
 ################################################################################
-# GPU and OpenMP Environment Variables (GROMACS GPU optimization)
-################################################################################
-
-# Enable GPU-CPU communication optimization
-export GMX_GPU_PME_PP_COMMS=true              # Enable PME-PP GPU communication
-export GMX_FORCE_UPDATE_DEFAULT_GPU=1         # Enable GPU acceleration by default
-export GMX_GPU_DD_COMMS=true                  # Enable domain decomposition GPU communication
-
-# OpenMP threading optimization for CPU support work
-export OMP_PROC_BIND=close                    # Bind threads to cores for better cache locality
-export OMP_PLACES=cores                       # Use physical cores (not hardware threads)
-export OMP_NUM_THREADS=20                     # Typically half cores per GPU (40 cores / 2 GPUs)
-
-# GROMACS general optimizations
-export GMX_MAXBACKUP=-1                       # Disable backup files (saves I/O)
-
-################################################################################
 # User Simulation Commands
 ################################################################################
+
+module load gromacs/gnu/2024.4
+module load gcc/12.2.0
+
 # Add your GROMACS commands below (grompp, mdrun, etc.)
 # Example with GPU acceleration:
 #   gmx grompp -f simulation.mdp -o simulation.tpr -c input.gro -p topol.top
