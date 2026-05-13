@@ -1,0 +1,13 @@
+# to be run with cpptraj -p ${top} -y ${traj} -i unbreak_mol.cpptraj -x ${out_traj}
+# if molecule broken in several parts (ie the membrane center of mass is at the center of the box)
+# Reput the molecule at the center of the box and unwrap the traj
+
+
+unwrap
+
+center :UUL,UUE,UUK,UUP,UUA mass
+image origin center familiar
+
+
+go
+quit
