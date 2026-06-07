@@ -59,7 +59,7 @@ system_name='CH4_H2O_rest'
 # String of paths to the processed subtrajectories (built during loop)
 files=''
 
-ts0 = ${traj_steps[0]}
+ts0 =${traj_steps[0]}
 
 # ============================================================================
 # MAIN PROCESSING LOOP: Process each trajectory chunk
@@ -84,7 +84,7 @@ for ts in ${traj_steps[@]}; do
     #   Group:  system
     echo "0" | gmx_mpi trjconv \
         -s ${raw_dir}/${system_name}_${ts0}.tpr \
-        -f ${raw_dir}/${system_name}_${ts0}.xtc \
+        -f ${raw_dir}/${system_name}_${t0}.xtc \
         -o tmp_nojump.xtc \
         -pbc nojump \
         -n index.ndx

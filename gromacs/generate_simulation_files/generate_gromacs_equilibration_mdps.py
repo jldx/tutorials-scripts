@@ -70,14 +70,6 @@ integrator              = steep                 ; steepest descent energy minimi
 emtol                   = 100.0                 ; stopping criterion: convergence when F_max < emtol (kJ/mol/nm)
 emstep                  = 0.01                  ; initial step size (nm) - conservative for stability
 nsteps                  = 50000                 ; maximum number of minimization steps
-; Note: Minimization typically converges before reaching nsteps
-; Output control
-nstxtcout               = 100                   ; save coordinates every 100 steps (for minimization trajectory)
-nstvout                 = 0                     ; do NOT save velocities (no velocities in minimization)
-nstfout                 = 0                     ; do NOT save forces (not relevant for minimization)
-nstcalcenergy           = 10                    ; calculate energies every 10 steps
-nstenergy               = 10                    ; save energies every 10 steps (monitor minimization progress)
-nstlog                  = 10                    ; update log file every 10 steps (monitor convergence)
 ; Periodic boundary conditions
 pbc                     = xyz                   ; 3D PDB
 ; Bond parameters
@@ -99,15 +91,7 @@ fourierspacing          = 0.12                  ; grid spacing for FFT (nm) - re
 rvdw                    = 1.0                   ; short-range van der waals cutoff (nm) - matches rcoulomb
 vdwtype                 = Cut-off               ; plain cutoff with pair list radius rlist and rvdw
 vdw-modifier            = Force-switch          ; smooth switch forces to zero at rvdw_switch
-rvdw_switch             = 0.8                   ; where force switch begins (nm) - allows smooth transition
-DispCorr                = EnerPres              ; account for cut-off vdW scheme (energy and pressure correction)
-; Temperature coupling is NOT used for energy minimization
-; Pressure coupling is NOT used for energy minimization
-; Coordinates scaling and center of mass motion removal
-refcoord_scaling        = com                   ; scale coordinates relative to center of mass
-nstcomm                 = 1                     ; do NOT remove center of mass motion (minimization doesn't need it)
-comm_mode               = linear                ; remove linear center of mass velocity
-comm_grps               = {comm_grps}         ; groups to remove the center of mass           
+rvdw_switch             = 0.8                   ; where force switch begins (nm) - allows smooth transition       
 """)
 
 ################################################################################
