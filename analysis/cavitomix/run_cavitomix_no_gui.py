@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-run_cavitomix.py (Suggested explicit name)
+run_cavitomix_no_gui.py
 ---------------------------------------------------
 CavitoMix: Automated Protein Cavity Detection (Headless Mode)
 
@@ -23,14 +23,7 @@ Workflow (Headless / Automated):
   5. (Optional) Process results programmatically or via PyMOL in batch mode
 
 Usage (Command-line):
-    python3 detect_cavities_batch.py
-    python3 detect_cavities_batch.py --input protein.pdb --output cavities.pdb
-
-Suggested rename to: `detect_cavities_batch.py`
-  - Clearly indicates batch/headless operation
-  - Emphasizes no PyMOL GUI involvement
-  - Better describes automated workflow intent
-  - Distinguishes from interactive PyMOL plugin usage
+    python3 run_cavitomix_no_gui.py protein.pdb cavities.pdb
 
 Requirements:
   - CavitoMix package (cavitomix module in current directory)
@@ -45,6 +38,7 @@ Output:
 
 from cavitomix import *
 from cavitomix.cavfind import CavFind
+import sys
 
 # ==============================================================================
 # USER CONFIGURATION
@@ -52,10 +46,10 @@ from cavitomix.cavfind import CavFind
 
 # Protein structure file (PDB format)
 # Replace with your actual protein PDB file path
-protein_pdb_file = "<path_to_protein_structure.pdb>"
+protein_pdb_file = sys.argv[1]
 
 # Output file for detected cavities (PDB format)
-output_cavities_file = "<output_cavities_with_results.pdb>"
+output_cavities_file = sys.argv[2]
 
 # Optional: Custom CavitoMix settings (leave as None to use defaults)
 # You can customize parameters like:
@@ -154,25 +148,4 @@ print("✓ Cavity detection completed")
 cav.write_cavities(filename=output_cavities_file)
 
 print(f"✓ Cavity results written to: {output_cavities_file}")
-
-# ==============================================================================
-# POST-ANALYSIS (Optional)
-# ==============================================================================
-
-# You can further analyze or filter cavities based on computed properties:
-# - cav.cavities: list of detected cavity objects
-# - cav.get_cavity_properties(): extract volume, shape, residues, etc.
-# - cav.filter_by_volume(min_volume, max_volume): volume-based filtering
-# - etc.
-
-print("\n✅ CavitoMix analysis completed successfully!")
-print(f"\nNext steps:")
-print(f"  1. Visualize cavities in PyMOL using the local plugin:")
-print(f"     - Launch PyMOL from this directory (cavitomix/)")
-print(f"     - The PyMOL plugin will be automatically available")
-print(f"     - Load protein: {protein_pdb_file}")
-print(f"     - Load cavities: {output_cavities_file}")
-print(f"     - Use plugin features for interactive cavity analysis")
-print(f"  2. Examine cavity properties and select promising drug targets")
-print(f"  3. Perform molecular docking in selected cavities")
                 
